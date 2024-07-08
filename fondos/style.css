@@ -1,0 +1,25 @@
+body    {
+    background-color: #2e5090;
+    margin: 0;
+    font-family: sans-serif;
+    color: blanchedalmond;
+}
+
+.box    {
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+    margin: 0;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQGcEdhUV6Q5LOOtqS9zcF63QE7x7eAaNpfw&s") top / cover fixed pink;
+}
+
+.opaco  {
+    height: 100%;
+    width: 100%;
+    background-color: #0008;
+}
+
+h2  {
+    padding: 20px;
+    text-align: center;
+}
