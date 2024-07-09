@@ -5,6 +5,7 @@ body    {
     font-family: "New Walt Disney Font",    sans-serif;
     background: #2e5090;
     color: #ddd;
+    back
 }
 
 h2  {
@@ -26,6 +27,7 @@ form    {
     margin-top: 50px;
     border-radius: 3px;
     font-size: 16px;
+    margin-bottom: 40px;
 }
 
 .form_input {
@@ -68,4 +70,16 @@ label   {
 .checkbox   {
     width: auto;
     height: 10px;
+}
+
+fieldset    {
+    border-radius: 5px;
+    border: 1px solid   #666;
+    padding: 6px  6px    20px    6px;
+    margin: 20px;
+}
+
+legend  {
+    padding: 0  6px;
+    color: #777;
 }

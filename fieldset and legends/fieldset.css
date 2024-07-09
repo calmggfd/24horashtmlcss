@@ -7,30 +7,15 @@ body    {
     color: #ddd;
 }
 
-h2  {
-    text-align: center;
-    margin: 0;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 1.3em;
-    padding: 10px;
-}
-
 form    {
     background-color: transparent;
-    padding: 20px   0;
+    padding: 10px   20px;
     max-width: 450px;
     margin: auto;
     box-shadow: 0px 0px 45px    #fff2;
     margin-top: 50px;
     border-radius: 3px;
     font-size: 16px;
-}
-
-.form_input {
-    padding: 6px   20px;
-    
 }
 
 input,  textarea,   select   {
@@ -44,28 +29,15 @@ input,  textarea,   select   {
     background-color: transparent;
     border-radius: 7px;
     color: #ddd;
+    margin: 6px 0;
 }
 
-option  {
-    background-color: #222;
-    padding: 50px;
+fieldset    {
+    margin: 20px    0;
+    border: 1px solid   #ddd6;
+    border-radius: 5px;
 }
 
-textarea    {
-    min-width: 100%;
-    resize: vertical;
-    /* min-height: 100px; o podriamos suplantarlo con rows en el "index.html" */
-    max-height: 200px;
-    font-family: "New Walt Disney Font",    sans-serif;
-    form-sizing:    
-}
-
-label   {
-    font-size: 0.88em;
-    line-height: 2;
-}
-
-.checkbox   {
-    width: auto;
-    height: 10px;
+legend  {
+    padding: 0  6px;
 }
