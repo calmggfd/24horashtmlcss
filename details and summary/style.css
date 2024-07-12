@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/mw-smart');
+
+body   {
+    background-color: #2e5090;
+    color: #ddd;
+    font-family: "MW SMART",    sans-serif;
+}
+
+details {
+    background-color: transparent;
+    border: 1px solid   #ddd;
+    padding: 9px;
+    font-size: 0.9em;
+
+}
+
+summary {
+    background-color: transparent;
+    font-size: 1em;
+    color: #ddd;
+}
+
+ol  {
+    font-weight: 100;
+}
