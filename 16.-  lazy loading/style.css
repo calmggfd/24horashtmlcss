@@ -1,0 +1,10 @@
+body    {
+    background: #2e5090;
+}
+
+p   {
+    height: 100vh;
+    width: 100vw;
+    font-size: 30px;
+    overflow: hidden;
+}
