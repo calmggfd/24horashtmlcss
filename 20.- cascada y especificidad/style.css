@@ -1,0 +1,37 @@
+body    {
+    background: #2e5090;
+}
+
+h1  {
+    color: red  !important; 
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/* PSEUDOCLASES */
+/* CUANDO  PASAMOS EL MOUSE POR ENCIMA DEL H1 */
+h1:hover  {
+    color: blue !important;
+}
+
+ul{
+    background: #999;
+    padding: 0;
+}
+
+/* SELECCIONAMOS AL PRIMER LI */
+li:first-child  {
+    color: red;
+}
+
+/* SELECCIONAMOS UN ELEMENTO LI */
+li:nth-child(3){
+    /* "3N" SERIA PARA SELECCIONAR CADA CUANTOS ELEMENTO SI OTRO NO EL 3 SALTA 3  */
+    color: aqua;
+    background: #fff;
+}
+
+/* SELECCIONAMOS EL ULTIMO LI */
+li:last-child   {
+    color: #00f;
+}
